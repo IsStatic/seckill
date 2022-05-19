@@ -1,2 +1,4 @@
 # seckill
-一个简单的秒杀项目，使用spring boot,mybatis-puls等
+一个简单的秒杀项目，使用spring boot,mybatis-plus等
+使用rebbitMQ做为消息队列，将秒杀订单的创建进行异步处理，减少秒杀时对数据库的操作压力
+使用到了Redis进行缓存与Redis预减库存
